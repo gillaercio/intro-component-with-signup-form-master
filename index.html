@@ -3,34 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/index.css">
 
 </head>
 <body>
 
   <main id="content">
     <header id="top-content">
-      <h1>Learn to code by watching others</h1>
+      <h1 class="top-title">Learn to code by watching others</h1>
       <p class="top-parag">
         See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
         but understanding how developers think is invaluable.
       </p>
     </header>
     <section id="form-contents">
-      <h2>
+      <h2 class="form-title">
         <span class="form-offer">Try it free 7 days</span> then $20/mo. thereafter
       </h2>
       <form class="form-content">
-        <input type="text" class="form-first-name" placeholder="First Name"></input>
-        <input type="text" class="form-last-name" placeholder="Last Name"></input>
-        <input type="email" class="form-email" placeholder="Email Address"></input>
-        <input type="password" class="form-password" placeholder="Password"></input><br>
-        <input type="button" class="form-button">Claim your free trial</input>
-      </form>
+        <input type="text" class="form-input form-first-name" placeholder="First Name"></input>
+        <input type="text" class="form-input form-last-name" placeholder="Last Name"></input>
+        <input type="email" class="form-input form-email" placeholder="Email Address"></input>
+        <input type="password" class="form-input form-password" placeholder="Password"></input><br>
+        <!-- <input type="button" class="form-input form-button" placeholder="Claim your free trial">Claim your free trial</input> -->
+        <button class="form-button">Claim your free trial</button>
       <p class="form-parag">By clicking the button, you are agreeing to our <span class="form-terms">Terms and Services</span></p>
+      </form>
     </section>
   </main>
 

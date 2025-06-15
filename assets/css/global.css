@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+
+  --Poppins: "Poppins", sans-serif;
+  --text-ft: 700 2.6em/150% var(--Poppins);
+  --text-md: 400 1.6em/150% var(--Poppins);
+  --text-md-ft: 600 1.3em/150% var(--Poppins);
+  --text-sm: 400 1.3em/150% var(--Poppins);
+  --text-sm-ft: 700 1.2em/150% var(--Poppins);
+}

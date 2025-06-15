@@ -1,0 +1,85 @@
+body {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bg-intro-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--Red);
+}
+
+#content {
+  width: minmax(320px, 375px);
+  padding: 24px;
+  display: grid;
+  gap: 20px;
+  
+  #top-content {
+    text-align: center;
+    color: white;
+
+    .top-title {
+      font: var(--text-ft);
+      margin-bottom: 10px;
+    }
+    
+    .top-parag {
+      font: var(--text-md);
+    }
+  }
+}
+
+.form-title {
+  font: var(--text-md);
+  color: white;
+  background-color: var(--Blue);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-bottom: 25px;
+
+  .form-offer {
+    font: var(--text-md-ft);
+  }
+}
+
+.form-content {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+
+  .form-input, .form-button {
+    font: var(--text-md-ft);
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--Grayish-Blue);
+  }
+
+  .form-button {
+    font: var(--text-md-ft);
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--Green);
+    box-shadow: 0px 5px 2px rgba(42, 150, 104, 0.7);
+    border: none;
+  }
+
+  .form-parag {
+    font: var(--text-sm);
+    text-align: center;
+    color: var(--Grayish-Blue);
+    margin-top: 10px;
+
+    .form-terms {
+      font: var(--text-sm-ft);
+      color: var(--Red);
+    }
+  }
+}
+
+.form-title, .form-content, .form-button {
+  box-shadow: 0px 8px 2px rgba(0,0,0,.2);
+}
