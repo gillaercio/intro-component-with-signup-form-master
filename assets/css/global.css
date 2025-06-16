@@ -18,7 +18,7 @@ html {
   --Poppins: "Poppins", sans-serif;
   --text-ft: 700 2.6em/150% var(--Poppins);
   --text-md: 400 1.6em/150% var(--Poppins);
-  --text-md-ft: 600 1.3em/150% var(--Poppins);
+  --text-md-ft: 500 1.3em/150% var(--Poppins);
   --text-sm: 400 1.3em/150% var(--Poppins);
   --text-sm-ft: 700 1.2em/150% var(--Poppins);
 }
