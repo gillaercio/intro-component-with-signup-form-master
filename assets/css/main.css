@@ -104,11 +104,12 @@ body {
         text-align: left;
         
         .top-title {
-          font-size: 3.8em;
+          font-size: clamp(2.6rem, 2.6rem + 0.9996vw, 4.4rem);
           margin-bottom: 30px;
         }
 
         .top-parag {
+          font-size: clamp(1.6rem, 1.4rem + 0.1666vw, 1.8rem);
           padding-right: 10px;
         }
       }
@@ -119,10 +120,24 @@ body {
         
         .form-title {
           max-width: 100%;
+          padding: 20px 30px;
+          font-size: clamp(1.4rem, 1.3rem + 0.1666vw, 1.6rem);
+
+          .form-offer {
+            font-size: clamp(1.3rem, 1.5rem + 0.1666vw, 1.9rem);
+          }
         }
         
         .form-input, .form-button {
-          font-size: 1.6em;
+          font-size: clamp(1.3rem, 1.2rem + 0.16666vw ,1.7rem);
+        }
+
+        .form-parag {
+          font-size: clamp(1rem, .9rem + 0.1666vw, 1.2rem);
+
+          .form-offer {
+            font-size: clamp(1rem, .8rem + 0.1666vw, 1.1rem);
+          }
         }
       }
     }
@@ -135,33 +150,5 @@ body {
     /* max-width: 90%; */
     min-width: 90%;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
-
-    #top-content {
-      .top-title {
-        font-size: 4.2em;
-      }
-
-      .top-parag {
-        font-size: 1.8em;
-      }
-    }
-
-    #form-contents {
-      .form-title {
-        font-size: 1.8em;
-      }
-
-      .form-input, .form-button {
-        font-size: 1.8em;
-      }
-
-      .form-parag {
-        font-size: 1.5em;
-      }
-
-      .form-terms {
-        font-size: 1.4em;
-      }
-    }
   }
 }
