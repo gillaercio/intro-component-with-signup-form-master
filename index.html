@@ -28,16 +28,19 @@
         <span class="form-offer">Try it free 7 days</span> then $20/mo. thereafter
       </h2>
       <form class="form-content">
-        <input type="text" class="form-input form-first-name" placeholder="First Name"></input>
-        <input type="text" class="form-input form-last-name" placeholder="Last Name"></input>
-        <input type="email" class="form-input form-email" placeholder="Email Address"></input>
-        <input type="password" class="form-input form-password" placeholder="Password"></input><br>
-        <!-- <input type="button" class="form-input form-button" placeholder="Claim your free trial">Claim your free trial</input> -->
-        <button class="form-button">Claim your free trial</button>
+        <input type="text" class="form-input" id="form-first-name" placeholder="First Name"></input>
+        <small class="error-message"></small>
+        <input type="text" class="form-input" id="form-last-name" placeholder="Last Name"></input>
+        <small class="error-message"></small>
+        <input type="email" class="form-input" id="form-email" placeholder="Email Address"></input>
+        <small class="error-message"></small>
+        <input type="password" class="form-input" id="form-password" placeholder="Password"></input>
+        <small class="error-message"></small><br>
+        <button type="submit" class="form-button" onclick="sendButton(event)">Claim your free trial</button>
       <p class="form-parag">By clicking the button, you are agreeing to our <span class="form-terms">Terms and Services</span></p>
       </form>
     </section>
   </main>
-
+  <script src="assets/js/index.js"></script>
 </body>
 </html>
